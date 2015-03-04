@@ -579,11 +579,7 @@ footer {
   clear: both;
   padding-top: 20px;
 }
-@media (min-width: 980px) {
-  body {
-    padding-top: 120px;
-  }
-}
+
 .login {
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
