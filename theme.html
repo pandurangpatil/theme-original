@@ -54,44 +54,6 @@
 
   <!-- Head Libs -->
   <script src="http://www.agnie.net/vendor/modernizr.js"></script>
-
-    <link href="{{ assets('css/style.css') }}" rel="stylesheet">
-
-    <!--[if IE 7]>
-      <link href="http://postach.io/static/themes/_assets/fontawesome/css/font-awesome-ie7.min.css" rel="stylesheet">
-    <![endif]-->
-
-    <!--
-    <style>
-      /**
-       * Your custom override CSS goes here. If you wanted to override the default link colour and hover state, you would do this:
-       *
-       *  a {
-       *      color: #333; /* Override the default colour with a not-quite-black that is easy on the eyes on white screens */
-       *  }
-       *
-       *  a:hover {
-       *      color: #545454; /* This will now change the hover state as well */
-       *  }
-       *
-       *  You can put anything you want to override in here, so be creative!
-       */
-    </style>
-    -->
-
-    {% if site.analytics %}
-      <script>
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.analytics }}']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-      </script>
-    {% endif %}
-
   </head>
   <body>
     test
